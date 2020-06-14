@@ -126,7 +126,7 @@ public static class RegistrarError
                 parametros.Add(new SqlParameter("@targetSite", tDatos.ToString(error.State)));
                 parametros.Add(new SqlParameter("@hResult", tDatos.ToString(error.State)));
 
-                SQL.Execute(cConString.QTCO, cAreas.Error, "IspError", parametros, "Registrar Error");
+                SQL.Execute(cConString.QTCO, cAreas.Error, "Ins_Errores", parametros, "Registrar Error");
             }
 
             if (SqlEx.InnerException != null)
@@ -155,7 +155,7 @@ public static class RegistrarError
             parametros.Add(new SqlParameter("@targetSite", tDatos.ToString(nullEx.TargetSite)));
             parametros.Add(new SqlParameter("@hResult", tDatos.ToString(nullEx.HResult)));
 
-            SQL.Execute(cConString.QTCO, cAreas.Error, "IspError", parametros, "Registrar Error");
+            SQL.Execute(cConString.QTCO, cAreas.Error, "Ins_Errores", parametros, "Registrar Error");
 
             if (nullEx.InnerException != null)
             {
@@ -183,7 +183,7 @@ public static class RegistrarError
             parametros.Add(new SqlParameter("@targetSite", " "));
             parametros.Add(new SqlParameter("@hResult", " "));
 
-            SQL.Execute(cConString.QTCO, cAreas.Error, "IspError", parametros, "Registrar Error");
+            SQL.Execute(cConString.QTCO, cAreas.Error, "Ins_Errores", parametros, "Registrar Error");
         }
         catch (Exception ex)
         {
@@ -219,7 +219,7 @@ public static class RegistrarError
                     parametros.Add(new SqlParameter("@targetSite", Excepcion.TargetSite.ToString().Replace("'", "*").Replace("\n", " ").Replace("\r", " ")));
                     parametros.Add(new SqlParameter("@hResult", "'" + Excepcion.HResult.ToString().Replace("'", "*").Replace("\n", " ").Replace("\r", " ") + "'"));
 
-                    SQL.Execute(cConString.QTCO, cAreas.Error, "IspError", parametros, "Registrar Error");
+                    SQL.Execute(cConString.QTCO, cAreas.Error, "Ins_Errores", parametros, "Registrar Error");
 
                     if (Excepcion.InnerException != null)
                     {
