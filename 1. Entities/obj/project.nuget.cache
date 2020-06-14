@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "5x0qWIEeuLdWXmKaU8bjAIo4wakTFsa/STgW1B0FU9bcuCM6J+M59tI7+ixsqREdUXi1vodL5j6wk+YGPy/0qg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\YURINANA TRINIDAD\\source\\repos\\MIKETRINIDAD\\WS-COMMERCES\\1. Entities\\1. Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\YURINANA TRINIDAD\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\YURINANA TRINIDAD\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\YURINANA TRINIDAD\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
