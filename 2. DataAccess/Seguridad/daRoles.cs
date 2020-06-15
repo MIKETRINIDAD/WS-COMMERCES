@@ -73,12 +73,12 @@ namespace DataAccess.Seguridad
                         if (Accion == "Insertar")
                         {
                             parametros.Add(new SqlParameter("@IdRol", tDatos.ToObject(objeto.IdRoles)));
-                            res = SQL.Execute(cConString.QTCO, cAreas.Users, "Ins_Roles", parametros, ProcesoInvocador);
+                            res = SQL.Execute(cConString.QTCO, cAreas.Roles, "Ins_Roles", parametros, ProcesoInvocador);
                         }
                         break;
                     case "Eliminar":
                         parametros.Add(new SqlParameter("@IdRol", tDatos.ToObject(objeto.IdRoles)));
-                        res = SQL.Execute(cConString.QTCO, cAreas.Users, "Del_Roles", parametros, ProcesoInvocador);
+                        res = SQL.Execute(cConString.QTCO, cAreas.Roles, "Del_Roles", parametros, ProcesoInvocador);
                         break;
                 }
 
