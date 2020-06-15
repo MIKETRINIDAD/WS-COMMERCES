@@ -13,17 +13,17 @@ namespace WS_ECOMMERCES.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class UsuariosController : ControllerBase
+    public class RolesController : ControllerBase
     {
-        #region Listados
-        // GET: api/<UsuariosController>
+        #region Listado
+        // GET: api/<RolesController>
         [HttpGet]
-        public IEnumerable<eUsuarios> Get()
+        public IEnumerable<eRoles> Get()
         {
-            var User = new List<eUsuarios>();
+            var rol = new List<eRoles>();
             var t = Task.Run(() =>
             {
-                User = daUsuario.ListUsuarios();
+                rol = daRoles.ListRoles();
             }
             );
 
@@ -34,25 +34,18 @@ namespace WS_ECOMMERCES.Controllers
 
             if (User == null)
             {
-                 NotFound();
+                NotFound();
             }
-            return User;
+            return rol;
         }
-
-        // GET api/<UsuariosController>/5
-        [HttpGet("{id}")]
-        public string Get(int id)
-        {
-            return "value";
-        }
-        #endregion Listados
+        #endregion Listado
 
         #region CRUD
         // POST api/<UsuariosController>
         [HttpPost]
-        public IEnumerable Post(eUsuarios usuarios)
+        public IEnumerable Post(eRoles roles)
         {
-            var usuario = new daUsuario("Insertar usuario");
+            var rol = new daRoles("Insertar roles");
             bool valida = false;
             if (!ModelState.IsValid)
             {
@@ -60,7 +53,7 @@ namespace WS_ECOMMERCES.Controllers
             }
             var t = Task.Run(() =>
             {
-                valida = usuario.Insert(usuarios);
+                valida = rol.Insert(roles);
             }
             );
 
@@ -74,9 +67,9 @@ namespace WS_ECOMMERCES.Controllers
 
         // PUT api/<UsuariosController>/5
         [HttpPut]
-        public IEnumerable Put(eUsuarios usuarios)
+        public IEnumerable Put(eRoles roles)
         {
-            var usuario = new daUsuario("Actualizar usuario");
+            var rol = new daRoles("Actualizar roles");
             bool valida = false;
             if (!ModelState.IsValid)
             {
@@ -84,7 +77,7 @@ namespace WS_ECOMMERCES.Controllers
             }
             var t = Task.Run(() =>
             {
-                valida = usuario.Update(usuarios);
+                valida = rol.Update(roles);
             }
             );
 
@@ -100,7 +93,7 @@ namespace WS_ECOMMERCES.Controllers
         [HttpDelete("{id}")]
         public IEnumerable Delete(int id)
         {
-            var usuario = new daUsuario("Eliminar usuario");
+            var rol = new daRoles("Eliminar rol");
             bool valida = false;
             if (!ModelState.IsValid)
             {
@@ -108,7 +101,7 @@ namespace WS_ECOMMERCES.Controllers
             }
             var t = Task.Run(() =>
             {
-                valida = usuario.Delete(id);
+                valida = rol.Delete(id);
             }
             );
 

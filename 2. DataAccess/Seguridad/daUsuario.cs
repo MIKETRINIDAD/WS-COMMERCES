@@ -143,7 +143,7 @@ namespace DataAccess.Seguridad
 
         public List<SelectListItem> Listado(int IdUsuario, string selected)
         {
-            return SQL.SelectListItems(cConString.QTCO, "select rtrim(Nombre) as 'text',rtrim(IdUsuario) as 'value' from Usuarios where IdUsuario=" + IdUsuario + " order by descripcion", selected);
+            return SQL.SelectListItems(cConString.QTCO, "select rtrim(Nombre) as 'text',rtrim(IdUsuario) as 'value' from Usuarios where IdUsuario=" + IdUsuario + "order by Nombre", selected);
         }
     }
 }

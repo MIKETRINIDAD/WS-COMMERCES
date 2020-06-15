@@ -1,9 +1,19 @@
 C:\Users\YURINANA TRINIDAD\source\repos\MIKETRINIDAD\WS-COMMERCES\4. Test QA\bin\Debug\netcoreapp3.1\4. Test QA.deps.json
+C:\Users\YURINANA TRINIDAD\source\repos\MIKETRINIDAD\WS-COMMERCES\4. Test QA\bin\Debug\netcoreapp3.1\4. Test QA.runtimeconfig.json
+C:\Users\YURINANA TRINIDAD\source\repos\MIKETRINIDAD\WS-COMMERCES\4. Test QA\bin\Debug\netcoreapp3.1\4. Test QA.runtimeconfig.dev.json
 C:\Users\YURINANA TRINIDAD\source\repos\MIKETRINIDAD\WS-COMMERCES\4. Test QA\bin\Debug\netcoreapp3.1\4. Test QA.dll
 C:\Users\YURINANA TRINIDAD\source\repos\MIKETRINIDAD\WS-COMMERCES\4. Test QA\bin\Debug\netcoreapp3.1\4. Test QA.pdb
+C:\Users\YURINANA TRINIDAD\source\repos\MIKETRINIDAD\WS-COMMERCES\4. Test QA\bin\Debug\netcoreapp3.1\1. Entities.dll
+C:\Users\YURINANA TRINIDAD\source\repos\MIKETRINIDAD\WS-COMMERCES\4. Test QA\bin\Debug\netcoreapp3.1\2. DataAccess.dll
+C:\Users\YURINANA TRINIDAD\source\repos\MIKETRINIDAD\WS-COMMERCES\4. Test QA\bin\Debug\netcoreapp3.1\3. Tools.dll
+C:\Users\YURINANA TRINIDAD\source\repos\MIKETRINIDAD\WS-COMMERCES\4. Test QA\bin\Debug\netcoreapp3.1\2. DataAccess.pdb
+C:\Users\YURINANA TRINIDAD\source\repos\MIKETRINIDAD\WS-COMMERCES\4. Test QA\bin\Debug\netcoreapp3.1\1. Entities.pdb
+C:\Users\YURINANA TRINIDAD\source\repos\MIKETRINIDAD\WS-COMMERCES\4. Test QA\bin\Debug\netcoreapp3.1\3. Tools.pdb
 C:\Users\YURINANA TRINIDAD\source\repos\MIKETRINIDAD\WS-COMMERCES\4. Test QA\obj\Debug\netcoreapp3.1\4. Test QA.csprojAssemblyReference.cache
 C:\Users\YURINANA TRINIDAD\source\repos\MIKETRINIDAD\WS-COMMERCES\4. Test QA\obj\Debug\netcoreapp3.1\4. Test QA.AssemblyInfoInputs.cache
 C:\Users\YURINANA TRINIDAD\source\repos\MIKETRINIDAD\WS-COMMERCES\4. Test QA\obj\Debug\netcoreapp3.1\4. Test QA.AssemblyInfo.cs
-C:\Users\YURINANA TRINIDAD\source\repos\MIKETRINIDAD\WS-COMMERCES\4. Test QA\obj\Debug\netcoreapp3.1\4. Test QA.csproj.CoreCompileInputs.cache
+C:\Users\YURINANA TRINIDAD\source\repos\MIKETRINIDAD\WS-COMMERCES\4. Test QA\obj\Debug\netcoreapp3.1\4. Test QA.csproj.CopyComplete
 C:\Users\YURINANA TRINIDAD\source\repos\MIKETRINIDAD\WS-COMMERCES\4. Test QA\obj\Debug\netcoreapp3.1\4. Test QA.dll
 C:\Users\YURINANA TRINIDAD\source\repos\MIKETRINIDAD\WS-COMMERCES\4. Test QA\obj\Debug\netcoreapp3.1\4. Test QA.pdb
+C:\Users\YURINANA TRINIDAD\source\repos\MIKETRINIDAD\WS-COMMERCES\4. Test QA\obj\Debug\netcoreapp3.1\4. Test QA.genruntimeconfig.cache
+C:\Users\YURINANA TRINIDAD\source\repos\MIKETRINIDAD\WS-COMMERCES\4. Test QA\obj\Debug\netcoreapp3.1\4. Test QA.csproj.CoreCompileInputs.cache
